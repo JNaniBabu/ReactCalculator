@@ -31,6 +31,7 @@ function Calcu() {
 
     let modifyHandler=()=>{
           setResult((p)=>p.slice(0,-1))
+          setErroMsg(false)
     }
     return(
         <div className="parent">
