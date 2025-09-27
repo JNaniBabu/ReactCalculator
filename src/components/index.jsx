@@ -30,8 +30,8 @@ function Calcu() {
     }
 
     let modifyHandler=()=>{
+         setErroMsg(false)
           setResult((p)=>p.slice(0,-1))
-          setErroMsg(false)
     }
     return(
         <div className="parent">
